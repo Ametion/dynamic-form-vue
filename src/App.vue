@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DynamicForm />
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts">
+import { defineComponent } from 'vue';
+import DynamicForm from "./components/DynamicForm.vue";
 
-export default {
+export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    DynamicForm
   }
-}
+});
 </script>
 
 <style>
