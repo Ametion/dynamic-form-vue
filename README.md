@@ -10,15 +10,7 @@ pnpm install
 pnpm run serve
 ```
 
-### Compiles and minifies for production
+### Run 7 Tests
 ```
-pnpm run build
+pnpm run test
 ```
-
-### Lints and fixes files
-```
-pnpm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
